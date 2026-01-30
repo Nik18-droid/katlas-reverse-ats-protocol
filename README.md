@@ -15,7 +15,7 @@ To be eligible for shortlisting and AWS credits, please review the specific tech
 ## 03. The Architecture
 Built on **AWS (Mumbai Region)** for maximum performance and security.
 
-* **Logic Layer:** Amazon Bedrock (Claude 3.5 Sonnet) for semantic reasoning.
+* **Logic Layer:** Amazon Bedrock (Claude 4.5 Opus) for semantic reasoning.
 * **Compute:** AWS Lambda for serverless, event-driven processing.
 * **Storage:** S3 for encrypted dossier storage and DynamoDB for state management.
 * **Intelligence:** Custom "Clinical Handler" model trained on outcome-labeled transformation data.
@@ -26,4 +26,5 @@ We are transitioning the Indian labor market from a "Black Hole" of rejection in
 ---
 **Founder:** Nikhil Sharma  
 **Status:** Phase 1 - Concept Validated (Live Revenue)  
+
 **Aesthetic:** Cyber-Noir
