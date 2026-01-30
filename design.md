@@ -85,7 +85,7 @@ KAtlas is designed as a **three-phase evolution** from service → agent → net
   - Identify optimal pivot strategies
 
 **Custom Fine-Tuned Model:**
-- Base: GPT-4o or Llama 3
+- Base: Claude 4.5 or Gemini 3 Pro
 - Training Data: Golden Dataset (labeled transformations)
 - Training Objective: 
   - Input: Original resume text + JD
@@ -298,7 +298,7 @@ def semantic_pivot(original_text, target_domain, seniority_level):
     
     # Call LLM
     transformed = openai.chat.completions.create(
-        model="gpt-4o",
+        model="Gemini 3 Pro",
         messages=[
             {"role": "system", "content": "You are KAtlas Pivot Engine"},
             {"role": "user", "content": prompt}
