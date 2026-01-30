@@ -54,7 +54,7 @@ KAtlas is designed as a **three-phase evolution** from service → agent → net
 - Document Generation: LaTeX → PDF (ATS-optimized)
 
 **AI/ML Layer:**
-- Primary LLM: OpenAI GPT-4o (semantic reasoning)
+- Primary LLM: Claude Opus 4.5 (semantic reasoning)
 - Advanced Reasoning: OpenAI o1 (strategic pivots)
 - Prompt Engineering:
   - Context: Job description + candidate data
@@ -269,7 +269,7 @@ def detect_governance_gap(resume_text):
 def semantic_pivot(original_text, target_domain, seniority_level):
     """
     Transforms generic language to governance-focused language
-    Uses GPT-4o with few-shot examples from Golden Dataset
+    Uses Claude Opus 4.5 with few-shot examples from Golden Dataset
     """
     # Retrieve similar successful transformations from vector DB
     similar_examples = vector_db.search(
