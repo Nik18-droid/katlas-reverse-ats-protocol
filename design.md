@@ -55,7 +55,7 @@ KAtlas is designed as a **three-phase evolution** from service → agent → net
 
 **AI/ML Layer:**
 - Primary LLM: Claude Opus 4.5 (semantic reasoning)
-- Advanced Reasoning: OpenAI o1 (strategic pivots)
+- Advanced Reasoning: Claude 4.5 (strategic pivots)
 - Prompt Engineering:
   - Context: Job description + candidate data
   - Task: Identify fatal errors, generate governance language
