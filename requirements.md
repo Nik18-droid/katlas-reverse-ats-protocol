@@ -217,7 +217,7 @@ We are building the **Reverse-ATS** — an AI system that filters candidates **I
 
 **Phase 1 Validation (Current):**
 - Interview Conversion Rate: Target >20% (vs. 2% industry baseline)
-- Revenue: ₹51,000+ by Jan 31, 2026
+- Revenue: ₹51,000+ by Feb 28, 2026
 - Customer Acquisition Cost: ₹0 (organic LinkedIn outreach)
 - Pilot users: 50 success stories
 
